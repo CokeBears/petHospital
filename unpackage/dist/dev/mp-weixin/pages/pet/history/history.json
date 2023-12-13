@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "pet-cards": "/pages/pet/components/petCards",
+    "history-list": "/pages/pet/components/historyList"
+  }
+}

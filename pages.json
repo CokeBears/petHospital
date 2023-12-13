@@ -1,0 +1,154 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				// "navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/watch/watch",
+			"style": {
+				"navigationBarTitleText": "医疗项目",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "个人预约"
+			}
+		}, {
+			"path": "pages/register/register",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "授权登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myProfile/myProfile",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pet/pet",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "宠物管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/order",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "缴费记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/detailed/detailed",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "详细信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cart/cart",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/pet/new/new",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/pet/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pet/cases/cases",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "病例",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#707070",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/icon/weibiaoti--copy.png",
+			"selectedIconPath": "static/icon/weibiaoti-.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/watch/watch",
+			"iconPath": "static/icon/fenlei-copy.png",
+			"selectedIconPath": "static/icon/fenlei.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/icon/wode-copy.png",
+			"selectedIconPath": "static/icon/wode.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"uniIdRouter": {}
+}

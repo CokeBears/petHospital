@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "授权登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

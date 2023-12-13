@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人预约",
+  "usingComponents": {
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "register-list": "/pages/index/components/registerList"
+  }
+}

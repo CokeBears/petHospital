@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "详细信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider"
+  }
+}

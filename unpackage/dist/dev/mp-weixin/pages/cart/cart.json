@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "carts": "/pages/cart/components/carts"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "病例",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "pet-cards": "/pages/pet/components/petCards"
+  }
+}

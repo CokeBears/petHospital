@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/watch/watch",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/myProfile/myProfile",
+    "pages/pet/pet",
+    "pages/order/order",
+    "pages/order/detailed/detailed",
+    "pages/cart/cart",
+    "pages/pet/new/new",
+    "pages/pet/history/history",
+    "pages/pet/cases/cases"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#707070",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icon/weibiaoti--copy.png",
+        "selectedIconPath": "static/icon/weibiaoti-.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/watch/watch",
+        "iconPath": "static/icon/fenlei-copy.png",
+        "selectedIconPath": "static/icon/fenlei.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icon/wode-copy.png",
+        "selectedIconPath": "static/icon/wode.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

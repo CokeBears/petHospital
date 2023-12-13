@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['clickText',['$0'],['recordId']]]]]}}" class="maxBox" bindtap="__e"><slot></slot></view>

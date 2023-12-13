@@ -1,0 +1,1 @@
+<view class="cards"><slot></slot></view>
