@@ -1,0 +1,9 @@
+{
+    // 路径转换
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths" : {
+            "@/*":["src/*"]
+        }
+    }
+}
